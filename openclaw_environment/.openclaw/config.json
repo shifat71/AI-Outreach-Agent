@@ -1,0 +1,44 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "~/.openclaw/workspace"
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "web_search",
+      "web_fetch",
+      "browser",
+      "exec",
+      "code_execution",
+      "read",
+      "write",
+      "edit",
+      "cron",
+      "sessions_create",
+      "sessions_list"
+    ],
+    "deny": [
+      "image_generate",
+      "music_generate",
+      "video_generate",
+      "nodes",
+      "x_search"
+    ]
+  },
+  "skills": {
+    "load": {
+      "extraDirs": ["./skills"]
+    }
+  },
+  "gateway": {
+    "controlUi": {
+      "enabled": true
+    }
+  },
+  "providerMcp": {
+    "url": "http://127.0.0.1:8770/mcp",
+    "project": "../provider_server"
+  }
+}

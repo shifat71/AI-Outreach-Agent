@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+campaigns/*.db
+campaigns/*.db-*
+campaigns/*.csv
+openclaw_environment/campaigns/*.db
+openclaw_environment/campaigns/*.db-*
+openclaw_environment/campaigns/*.csv
